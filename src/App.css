@@ -1,11 +1,42 @@
+body {
+  background-image: linear-gradient( rgb(156, 200, 200) 1rem, rgb(246, 212, 251) 10rem, pink, white 55rem);
+  height: 100vh;
+}
 .App {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-align: center;
+}
+.classComp{
+  border:2px blue solid;
+  border-radius: 80px;
+  background-color:aqua;
+  width:520px;
+  height:200px;
+  margin-top:50px;
+}
+.options{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.click{
+  border:2px blue solid;
+  border-radius: 80px;
+  background-color:aqua;
+  width:200px;
+  height:50px;
+  cursor: pointer;
+  padding: auto;
 }
+.heading{
+  display: inline-block;
+  text-shadow: 3px 3px aqua;
+}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
