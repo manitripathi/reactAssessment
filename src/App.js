@@ -27,17 +27,17 @@ class ShowHide extends React.Component{
             x &&(<div className="classComp">
           <h2>This is created using Functional Based Component</h2>
           <p>This is done using external CSS</p>
-          <p style={{color:'red'}}>This is done using internal CSS</p>
+          <p style={{color:'blue'}}>This is done using internal CSS</p>
             </div>)
           }
           </div>
           <div>
             <button className='click' onClick={change2}>{y?'To see styling in Class Component':'To see styling in Class Component'}</button>
           {
-            y &&(<div className="classComp">
+            y &&(<div className="classComp" id='classComp1'>
           <h2>This is created using Class Based Component</h2>
           <p>This is done using external CSS</p>
-          <p style={{color:'red'}}>This is done using internal CSS</p>
+          <p style={{color:'blue'}}>This is done using internal CSS</p>
             </div>)
           }
           </div>
